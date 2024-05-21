@@ -220,6 +220,7 @@ export class ZohoApiClient {
             },
             baseUrl: config.baseUrl,
             dc: dataCenter,
+            apiFlavour: config.apiFlavour
         });
     }
 
